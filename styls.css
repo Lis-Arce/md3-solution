@@ -1,0 +1,134 @@
+body {
+	font-size: 16px;
+	color: rgb(245, 243, 238);
+	background-color: #f585d0;
+	font-family: 'Lobster', cursive;
+}
+
+/* HEADER */
+#header-nav {
+	background-color: rgb(238, 173, 209);
+	border-radius: 0;
+	border: 0;
+	color: rgb(86, 15, 114);
+}
+
+
+
+.navbar-brand, col-icon {
+	color: rgb(180, 16, 16);
+	font-size: 30px;
+    padding: 25px;
+}
+
+.navbar-brand a:focus, .navbar-brand a:hover {
+	text-decoration: none;
+}
+
+
+
+#nav-list{
+    margin-top: 10px;
+}
+
+#nav-list a {
+	color: rgb(90, 6, 110);
+	text-align: center;
+    
+}
+
+#nav-list a:hover {
+	background-color: rgb(114, 17, 73);
+}
+/* END HEADER */
+
+/* Section */
+#home {
+	margin-bottom: 30px;
+}
+
+.row {
+	
+	position: relative;
+	float: left;
+}
+
+.row > div > article {
+	background-color: rgb(161, 146, 128);
+	text-align: justify;
+	margin-bottom: 20px;
+	padding: 12px;
+	color: black;
+}
+/* End Section */
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1200px) {
+    .content,.content1,.content2,.content3{
+      float: left;
+      height: 675px;
+      
+    }
+      
+      
+    }
+  
+    @media (min-width: 992px) and (max-width: 1199px) {
+      .content,.content1,.content2,.content3{
+        float: left;
+        width: 100px;
+        height: 100px;
+        margin: 5px 5px 5px 0;
+       
+      }
+    }
+  
+  
+    @media (max-width: 767px) {
+       .content,.content1,.content2,.content3 {
+        float: left;
+        height: 558;}
+        .navbar-brand {
+            padding-top: 10px;
+            height: 80px;
+          }
+          .navbar-brand h1 { /* Restaurant name */
+            padding-top: 10px;
+            font-size: 5vw; /* 1vw = 1% of viewport width */
+          }
+          .navbar-brand p { /* Kosher cert */
+            font-size: .6em;
+            margin-top: 12px;
+          }
+          .navbar-brand p img { /* Star-K */
+            height: 20px;
+          }
+        
+          #collapsable-nav a { /* Collapsed nav menu text */
+            font-size: 1.2em;
+          }
+          #collapsable-nav a span { /* Collapsed nav menu glyph */
+            font-size: 1em;
+            margin-right: 5px;
+          }
+        
+        
+       }
+      
+
+
+
+
+
+
+
+
+
